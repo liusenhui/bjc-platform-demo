@@ -1,0 +1,17 @@
+.layout-right {
+    .avue-header {
+        padding-left: 0px !important;
+        padding-right: 240px;
+    }
+    .avue-left {
+        left: auto;
+        right: 0;
+        .avue-logo {
+            left: auto;
+            right: 0; 
+        }
+    }
+    .avue-main {
+        left: 0px !important;
+    }
+}

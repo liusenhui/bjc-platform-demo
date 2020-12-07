@@ -1,0 +1,15 @@
+.layout-bottom {
+    .avue-header {
+        position: absolute;
+        bottom: 0;
+    }
+    .avue-left {
+        .avue-sidebar {
+            padding-top: 0;
+        }
+        .avue-logo {
+            bottom: 0;
+            top: auto;
+        }
+    }
+}
