@@ -1,0 +1,71 @@
+
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{
+    background: #20222a !important;
+}.layout-top {
+    .avue-header {
+        padding-left: 0;
+        position: absolute;
+        top: 56px;
+        left: 0px;
+        .avue-top {
+            padding: 0px;
+            .top-bar__left {
+                display: none;
+            }
+            .top-bar__title {
+                height: 100%;
+                padding: 0px;
+            }
+        }
+    }
+    .avue-left {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        .avue-sidebar {
+            padding-top: 0px;
+            padding-bottom: 10px;
+            background-color: transparent;
+            box-shadow: none;
+        }
+        .avue-logo {
+            float: left;
+            height: 56px;
+            position: inherit;
+            background: none !important;
+            .avue-logo_title {
+                div{
+                    background: none !important;
+                }
+            }
+        }
+    }
+    .el-scrollbar {
+        overflow: inherit;
+        .el-scrollbar__wrap {
+            overflow: auto;
+            .el-menu {
+                .el-submenu {
+                    float: left;
+                    width: calc(100% / 5);
+                    .el-menu {
+                        background-color: #ccc !important;
+                    }
+                }
+            }
+        }
+    }
+    .avue-main {
+        left: 0;
+        width: 100%;
+        top: 120px;
+    }
+    @media screen and (max-width: 992px) {
+        .avue-left,.avue-logo {
+            left: 0;
+        }
+        .avue-logo {
+            height: 0 !important;
+        }
+    }
+}

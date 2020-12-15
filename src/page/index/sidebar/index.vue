@@ -6,7 +6,7 @@
            class="avue-sidebar--tip">{{$t('menuTip')}}</div>
       <el-menu unique-opened
                :default-active="nowTagValue"
-               mode="vertical"
+               mode="horizontal"
                :show-timeout="200"
                :collapse="keyCollapse">
         <sidebar-item :menu="menu"

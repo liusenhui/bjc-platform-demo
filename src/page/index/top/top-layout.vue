@@ -38,6 +38,10 @@ export default {
           value: "default"
         },
         {
+          name: "头部栏布局",
+          value: "layout-top"
+        },
+        {
           name: "右边栏布局",
           value: "layout-right"
         },

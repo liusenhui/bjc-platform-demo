@@ -15,11 +15,14 @@ import {
 } from '@/config/env';
 import i18n from './lang' // Internationalization
 import './styles/common.scss';
+require('../node_modules/_font-awesome@4.7.0@font-awesome/css/font-awesome.min.css');
+import * as echarts from 'echarts';
 
 import basicContainer from './components/basic-container/main'
 import thirdRegister from './components/third-register/main'
 
 Vue.use(router)
+Vue.use(echarts)
 Vue.use(VueAxios, axios)
 Vue.use(Element, {
     i18n: (key, value) => i18n.t(key, value)
@@ -46,5 +49,6 @@ new Vue({
     router,
     store,
     i18n,
+    echarts,
     render: h => h(App)
 }).$mount('#app')
